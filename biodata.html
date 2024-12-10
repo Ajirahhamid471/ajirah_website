@@ -1,122 +1,155 @@
-<html>
-    <head>
-        <title>Biodata</title>
-        </head>
-        <body bgcolor="#brown">
-        <abbr title="biodata">About me</abbr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata - Ajirah Binti Abd Hamid</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #e6b0aa;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #913347;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            text-align: center;
+        }
+        .topnav a {
+            display: inline-block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .topnav a:hover {
+            background-color: #dec6f5b2;
+            color: black;
+        }
+        .topnav a.active {
+            background-color: #913347;
+            color: white;
+        }
+        hr {
+            border: 0;
+            height: 2px;
+            background: #f5b7b1;
+            margin: 20px auto;
+            width: 90%;
+        }
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .profile-img {
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 2px solid #f5b7b1;
+        }
+        .section-title {
+            font-size: 24px;
+            color: #913347;
+            font-weight: bold;
+        }
+        .section-content {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        blockquote {
+            background: #f5b7b1;
+            padding: 15px;
+            font-size: 18px;
+            font-style: italic;
+            border-left: 5px solid #913347;
+        }
+    </style>
+</head>
+<body>
 
-        <head> 
-            <meta name="viewport" content="width=device-width, initial-scale=1"> 
-         
-         
-        <style> 
-        body { 
-          margin: 0; 
-          font-family: Arial, Helvetica, sans-serif; 
-        } 
-             
-            .topnav { 
-              overflow: hidden; 
-              background-color: #333; 
-            } 
-             
-            .topnav a { 
-              float: left; 
-              color: #f2f2f2; 
-              text-align: center; 
-              padding: 14px 16px; 
-              text-decoration: none; 
-              font-size: 17px; 
-            } 
-             
-            .topnav a:hover { 
-              background-color: #dec6f5b2; 
-              color: black; 
-            } 
-             
-            .topnav a.active { 
-              background-color: #336691; 
-              color: white; 
-            } 
-            </style> 
-            </head> 
-            <body> 
-             
-                <div class="topnav"> 
-                    <a class="active" href="main_page.html">Home</a> 
-                    <a href="biodata.html" target="_self" >About me</a> 
-                    <a href="travel.html" target="_self" >Travel</a> 
-                    <a href="food.html" target="_self" >Food</a> 
-                    <a href="youtube.html" target="_self" >Favourite Youtube Channel</a> 
-                    <a href="gallery.html" target="_self" >Gallery</a> 
-            
-                  </div> 
-             
-            </body>
-        
-        
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="biodata.html">About Me</a>
+        <a href="travel.html">Travel</a>
+        <a href="food.html">Food</a>
+        <a href="youtube.html">Favourite Youtube Channel</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
 
-            <h1 align="center" >ABOUT ME </h1>
+    <div class="content">
+        <h1>About Me</h1>
+        <hr>
+        <img src="images/myself 3.jpg" alt="Ajirah" height="300" class="profile-img">
+        <p class="section-content">
+            📌 My name is <b>Ajirah Binti Abd Hamid</b>, born on 24th February 2004 at Hospital Plaza Medical Center in Kajang, Selangor. I currently live in <strong>Bandar Tun Hussein Onn</strong> in Cheras. I have 6 siblings and I am the fifth child. My twin, Athirah, is the older sister. Despite being an introvert, I have a curiosity to try new things. The name <em>"Ajirah"</em> is very special to me, given by my late father.
+        </p>
 
-           
-            <p>
-                <img src="images/myself 3.jpg" height="300" style="float:left;" border="1" hspace ="20"
-                vspace="10">
+        <hr>
+        <h2 class="section-title">My Hobby 🚴</h2>
+        <div class="video-container">
+            <video width="340" height="240" controls>
+                <source src="images/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <p class="section-content">
+            My hobbies include spending time with my family watching movies, especially series like The Maze Runner and Harry Potter. Lately, I've developed an interest in cycling. During the semester break, I went cycling at the Wetland Park in Putrajaya and in Sekinchan.
+        </p>
+
+        <hr>
+        <h2 class="section-title">Travel ✈️</h2>
+        <div class="image-container">
+            <img src="images/Travel.jpg" alt="Travel" height="200" class="profile-img">
+        </div>
+        <p class="section-content">
+            Apart from exploring Malaysia, I’ve been to Indonesia, Singapore, and Thailand. These vacations with my family are filled with great memories. 
+            <br><br>
+            Looking forward, I plan to visit places like Mecca for Umrah with my family. Japan is another dream destination, especially Universal Studios Japan and Niseko in Hokkaido, renowned for its snow sports.
+        </p>
+
+        <hr>
+        <h2 class="section-title">Work Experience</h2>
+        <p class="section-content">
+            During the COVID-19 period, I helped my sister with her dessert business, including tarts, birthday cakes, and holiday treats. I managed her Instagram account, creating promotional posters. It was fulfilling to balance business activities with my studies.
+        </p>
+
+        <hr>
+        <h2 class="section-title">Education Journey 🎓</h2>
+        <img src="images/my school friend.jpg" alt="School Friend" height="300" class="profile-img">
+        <p class="section-content">
+            I miss my school days at SMK Bandar Tun Hussein Onn (2), just 7 minutes away by foot. I fondly remember my time in Form 5, during SPM, when I met incredible teachers. My favorite subject was History, and I always aimed for an A in that subject. After school, I’d often walk with friends and grab drinks or snacks from roadside shops.
+            <br><br>
+            After graduating, I continued my studies at Universiti Teknologi MARA in the Negeri Sembilan Branch, Rembau campus. I'm currently in my 5th semester, pursuing a diploma in Information Science. At university, I actively participate in band association activities and serve as the secretary.
+        </p>
+
+        <hr>
+        <blockquote>
+            <p class="section-content">
+                <b>In conclusion, I remain motivated to continue learning. After completing my diploma, I plan to pursue a degree to achieve my goals and make my family proud.</b>
             </p>
+        </blockquote>
+    </div>
 
-            <br> <font size="4" color="#F5DEB3" face="Georgia (serif)">📌 My name is <b> Ajirah Binti Abd Hamid </b>, I was born on 24 February 2004 at 
-            Hospital Plaza Medical Center in Kajang, Selangor. I currently live in <strong> Bandar Tun Hussein Onn </strong>
-            in the Cheras area. I have 6 siblings and I am the fifth child. Not only that, I have a <i>twin</i> named Athirah 
-            and she is the older sister while I am the younger sister. My attitude is that of an introvert but with a desire 
-            to try something new. Furthermore, the name <em>"Ajirah" </em> is very unique and special to me and the name was given by my late father.</font>
-             <p>
-            <strong><big>Education🎓</big></strong>
-            <p>
-                <font size="4" color="#F5DEB3" face="Georgia (serif)">After completing my studies at SMK Bandar Tun Hussein Onn (2), I am currently continuing my education at the UniversitI Technology MARA at the Negeri Sembilan Branch Rembau campus.
-                I am currently in my 5th semester and majoring in a diploma in Pusat pengajian Sains Maklumat. While at university, I was active in band association activities and held the position of secretary.</font> 
-            </p>
+</body>
+</html>
 
-            <p>
-            <strong><big>My Hobby🚴</big></strong>
-            <br> <font size="4" color="#F5DEB3" face="arial">My hobby is that now I prefer to spend time with my family by watching movies together. 
-            My favorite movie is that I love to watch movie series like the maze runner and Harry Potter. 
-            Then, my latest hobby is now I like to ride a bike. During the semester break after industrial 
-            training I went to ride a bike at the Wetland park in Putrajaya and in Sekinchan.</font>
-            </p>
-
-        <br>
-        <img src="images/Travel.jpg" height="300" style="float:right;" border="1" hspace ="20"
-                vspace="10">
-
-            <p>
-            <strong><big>Travel✈️</big></strong>
-            <br><font size="4" color="#F5DEB3" face="arial">Next, apart from visiting Malaysia, one of the places I have gone on holiday with my family
-                is that I have been on vacation to Indonesia, Singapore and Thailand. I have many memories with the people I love, my family.
-                
-            Other than that, I want to share about the list of places I want to visit with my family.
-            The first is, I want to go to perform Umrah with my family. Of course, this place is the main destination
-            for Muslims. Next, the second destination I want to go to is Japan. In Japan, I want to go to Universal 
-            Studio of Japan. There are many theme park challenges that I want to explore! .
-            Not only that, I want to go visit Nara Park where there are deer animals where they only enter for free!
-            </font>
-            </p>
-
-        </br>
-
-            <p>
-            <strong><big>Career</big></strong>
-            <br><font size="4" color="#F5DEB3" face="arial">In the field of career, I only have experience working with family businesses. 
-            During the covid 19 period, I helped my sister in the dessert business such as tarts, birthday cakes and 
-            holiday cakes as well as lasagna and Mac n Cheese. My job was to make posters for promotions and I hold an 
-            Instagram account to always update about my sister's business. To be honest, I feel happy because I can fill my free time to do 
-            business at the same time I study.
-            </font></p>
-
-            <p>
-                <font size="4" color="#F5DEB3" face="Courier New (monospace)"> <b>In conclusion, I hope myself to always keep motivated to continue 
-                learning. After completing the diploma, I want to continue to take a degree to achieve my goals and have a bright future for me and 
-                make my family proud.</font>
-        </b> </p>
 
         
 
@@ -173,8 +206,6 @@
                         <blockquote></blockquote> 
             </p> -->
 
-        </body>
-        </html>
-
+    
             
     

@@ -1,87 +1,121 @@
 <html>
     <head>
-        <title>About Me</title>
+        <title>Home</title>
         <link rel="stylesheet" href="style.css">
     </head>
+
     <style>
     body
     {
         background-image: url(images/background.jpg)
     }
     </style>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-</style>
-</head>
-<body class="w3-light-grey">
-
-<!--MAIN PAGE-->
-<head> 
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     
-<style> 
- body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            background-color: #e6b0aa;
-            color: #333;
-        }
-        h1 {
-            text-align: center;
-            color: #913347;
-        }
-        
-        
-        .topnav {
-            overflow: hidden;
-            background-color: #c98cc9;
-            color: black;
-            text-align: center;
-        }
-            
-        .topnav a {
-            display: inline-block;
-            color: #000000;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-    .topnav a.active { 
-      background-color: #b46f9a; 
-      color: white; 
-    } 
-    </style> 
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        background-color: #f5f5f5;
+        color: #333;
+    }
+    h1 {
+        text-align: center;
+        color: #913347;
+        font-size: 36px;
+        margin-top: 30px;
+    }
+    h2 {
+        text-align: center;
+        font-style: italic;
+        color: #666;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #e6b0aa;
+        color: black;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .topnav a {
+        display: inline-block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: background-color 0.3s ease;
+    }
+    .topnav a:hover {
+        background-color: #dfdfdf;
+        color: black;
+    }
+    .topnav a.active {
+        background-color: #d46795;
+        color: rgb(0, 0, 0);
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    .gallery-item {
+        text-align: center;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        transition: transform 0.3s ease-in-out;
+    }
+    .gallery-item:hover {
+        transform: scale(1.05);
+    }
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        transition: transform 0.3s ease-in-out;
+    }
+    .gallery-item img:hover {
+        transform: scale(1.05);
+    }
+    .caption {
+        font-size: 16px;
+        color: #444;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+</style>
+
     </head> 
     <body> 
      
-      <div class="topnav"> 
-        <a class="active" href="index.html">Home</a> 
-        <a href="biodata.html" target="_self" >About me</a> 
-        <a href="travel.html" target="_self" >Travel</a> 
-        <a href="food.html" target="_self" >Food</a> 
-        <a href="youtube.html" target="_self" >Favourite Youtube Channel</a> 
-        <a href="gallery.html" target="_self" >Gallery</a> 
-
-      </div> 
+        <div class="topnav"> 
+            <a class="active" href="index.html">Home</a> 
+            <a href="biodata.html" target="_self" >About me</a> 
+            <a href="travel.html" target="_self" >Travel</a> 
+            <a href="food.html" target="_self" >Food</a> 
+            <a href="myplaylist.html" target="_self" >My Playlist</a> 
+            <a href="gallery.html" target="_self" >Gallery</a> 
+        </div> 
 
     </body>
 
-            <h1 align="center"> <em> Assalamualaikum, </em> <strong> Welcome to my website!</strong> </h1> 
+    <abbr title="Ajirah">Ajrh Website</abbr>
+
+            <h1 align="center"> <em> Assalamualaikum, </em> <strong> Welcome to Ajirah Website!</strong> </h1> 
 
         <!-- w3-content defines a container for fixed size centered content, and is wrapped around the whole page content, except for the footer in this example -->
          <div class="w3-content" style="max-width:1400px">
         
-          <!-- Header -->
-          <header class="w3-container w3-center w3-padding-32"> 
-            <p><span class="w3-tag"><em>AJIRAH</em></span></p>
-          </header>
-        
+        <div align="center">
+         <em>I am student diploma in information Management in semester 5.
+                Lets discover what is inside my website!</p>
+        </div>
+
+
             <p>
                 <div align ="center"> 
                 <h4 style="text-align:justify;"></h4>
@@ -97,14 +131,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 </a>
 
                 <hr size ="5" color ="#17202a" width="90%">
-                
-                <br>
-                
-                <font size="3" color="#17202a" face="arial"> <strong> 
-                    Quotes of the day:
 
-                <blockquote>
-                    <i> Remember </i>
+                <br>
+
+                <font size="3" color="#17202a" face="arial"><strong> Quotes of the day: 
+               
                     <blockquote> "You may say I'm a dreamer, but I'm not the only one.</blockquote>
                     <blockquote> I hope someday you'll join us. And the world will live as one. -John Lennon" </blockquote> </strong></font>
                 </p>  
@@ -114,5 +145,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 
                 </div>
        
-        </body>
+<div align="center">
+        <footer>
+                <p>@copyright AJRH WEBSITE 2024</p>
+        </footer>
+</div>
+
+</body>
 </html>

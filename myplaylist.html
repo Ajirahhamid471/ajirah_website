@@ -1,0 +1,115 @@
+<html>
+<html>
+<head>
+    
+    <title>My Playlist</title>
+
+    <style>
+      body
+      {
+          background-image: url(images/playlist_background.jpg)
+      }
+      </style>
+
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            margin: 0;
+            background-color: #913347;
+            color: #ebd3d3;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1a0f0f;
+            font-size: 1.5em;
+            margin-top: 50px;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #a74545;
+            color: rgb(15, 14, 14);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+
+        .topnav a {
+            display: inline-block;
+            color: #d4a7a7;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .topnav a:hover {
+            background-color: #ece7b8;
+            color: rgb(177, 83, 83);
+        }
+
+        .topnav a.active {
+            background-color: #ece7b8;
+            color: rgb(177, 83, 83);
+            font-weight: bold;
+        }
+
+        .button-container {
+            margin-top: 50px;
+        }
+
+        button {
+            background-color: #d4a7a7;
+            color: rgb(14, 11, 11);
+            font-size: 18px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            margin: 10px;
+        }
+
+        button:hover {
+            background-color: #a74545;
+            transform: translateY(-5px);
+        }
+
+        hr {
+            border: 0;
+            height: 5px;
+            background-color: #17202a;
+            width: 80%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="biodata.html" target="_self">About me</a>
+        <a href="travel.html" target="_self">Travel</a>
+        <a href="food.html" target="_self">Food</a>
+        <a href="myplaylist.html" target="_self">My Playlist</a>
+        <a href="gallery.html" target="_self">Gallery</a>
+    </div>
+
+    <h1> ★🎸 In this content, I will share my top playlist I recommend!🎧⋆｡ °⋆ </h1>
+
+    <div class="button-container">
+        <button onclick="document.location='youtube.html'">YouTube</button>
+        <button onclick="document.location='music.html'">Music</button>
+        <button onclick="document.location='movie.html'">Movie</button>
+    </div>
+
+    <hr>
+
+</body>
+</html>

@@ -5,6 +5,17 @@
     </head>
 
     <style>
+        #typing {
+          font-size: 30px;
+          font-family: monospace;
+          border-right: 2px solid black;
+          display: inline-block;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+    </style>
+
+    <style>
     body
     {
         background-image: url(images/background.jpg)
@@ -18,19 +29,21 @@
         background-color: #f5f5f5;
         color: #333;
     }
-    h1 {
-        text-align: center;
-        color: #913347;
-        font-size: 36px;
-        margin-top: 30px;
-    }
-    h2 {
-        text-align: center;
-        font-style: italic;
-        color: #666;
-        margin-bottom: 30px;
-        font-size: 20px;
-    }
+        h1 {
+            text-align: center;
+            color: #913347;
+            font-size: 36px;
+            margin-top: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+
     .topnav {
         overflow: hidden;
         background-color: #e6b0aa;
@@ -109,15 +122,36 @@
 
     </body>
 
-    <abbr title="Ajirah">Ajrh Website</abbr>
+    <abbr title="Ajirah Website">Ajrh Website</abbr>
 
-            <h1 align="center"> <em> Assalamualaikum, </em> <strong> Welcome to Ajirah Website!</strong> </h1> 
+    <body>
+        <div align="center">
+        <div id="typing"></div>
+        <script>
+          const text = "Assalamualaikum, welcome to my website!";
+          let index = 0;
+      
+          function typeText() {
+            const typingElement = document.getElementById("typing");
+            typingElement.textContent = text.slice(0, index);
+            index++;
+      
+            if (index <= text.length) {
+              setTimeout(typeText, 100); // Type the letters one by one
+            }
+          }
+          typeText();
+         
+        </script>
+        </div>
+      </body>
+      
 
         <!-- w3-content defines a container for fixed size centered content, and is wrapped around the whole page content, except for the footer in this example -->
          <div class="w3-content" style="max-width:1400px">
         
         <div align="center">
-         <em>I am student diploma in information Management in semester 5.
+         <em>I am student diploma in <b>INFORMATION SCIENCE STUDIES </b> in semester 5.
                 Lets discover what is inside my website!</p>
         </div>
 

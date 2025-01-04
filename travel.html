@@ -19,17 +19,31 @@
               color: #333;
           }
           h1 {
-              text-align: center;
-              color: #284c6f;
-              font-size: 36px;
-              margin-top: 30px;
-          }
-          h2 {
-              text-align: center;
-              font-style: italic;
-              color: #284c6f;
-              margin-bottom: 30px;
-              font-size: 20px;
+            text-align: center;
+            color: #284c6f;
+            font-size: 36px;
+            margin-top: 30px;
+            animation: bounce 2s infinite; /* Apply animation */
+        }
+
+        h2 {
+            text-align: center;
+            font-style: italic;
+            color: #284c6f;
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+         
           }
           .topnav {
               overflow: hidden;
@@ -199,23 +213,27 @@
   </li>
   <p>
 
+<ul style=" list-style-image: url(images/arrow.jpg)">
 <h3>Winter in Istanbul?</h3>
-<strong>February</strong>
-Winter brings cooler weather to the city, with average highs dropping below 10<sup>o</sup>C in January and February. January is the coldest month with daily average 
-highs of just 8.6<sup>o</sup>C. December is warmer, with average temperatures of  10.8<sup>o</sup> C , but sees the highest levels of rainfall, with an average of 85mm.
-  </p>
-
-</ol>
+<li><b>January </b> is the coldest month with daily average highs of just 8.6<sup>o</sup>C.</li>
+<li><strong>February</strong>
+Winter brings cooler weather to the city, with average highs dropping below 10<sup>o</sup>C in January and February.</li>
+<li> <b>December </b> is warmer, with average temperatures of  10.8<sup>o</sup> C , but sees the highest levels of rainfall, with an average of 85mm.</li>
+</p>
+</ul>
 
 <br>
-<p><a href="#top">Back to top </a></p>
+
+<div align="center">
+  <p><a href="#top"> Back to top </a></p>
+</div>
 
 <div align="center">
   <footer>
-    <p>@copyright AJRH WEBSITE 2024</p>
+  <p>@copyright AJRH WEBSITE 2024</p>
   </footer>
 </div>
 
-  </body>
+</body>
 </html>
 
